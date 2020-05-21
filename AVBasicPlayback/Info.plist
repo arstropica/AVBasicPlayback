@@ -60,5 +60,12 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
+	<key>MediaPlaylistUrl</key>
+	<string>&lt;put an m3u8 url here&gt;</string>
 </dict>
 </plist>

@@ -15,6 +15,8 @@
 		84AA97D12476BD3200181F4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84AA97CF2476BD3200181F4D /* LaunchScreen.storyboard */; };
 		84AA97DC2476BD3200181F4D /* AVBasicPlaybackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AA97DB2476BD3200181F4D /* AVBasicPlaybackTests.swift */; };
 		84AA97E72476BD3200181F4D /* AVBasicPlaybackUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AA97E62476BD3200181F4D /* AVBasicPlaybackUITests.swift */; };
+		84AA97F52476C16400181F4D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84AA97F42476C16400181F4D /* Default-568h@2x.png */; };
+		84AA97FB2476E01A00181F4D /* UIApplication+mediaPlaylistUrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AA97FA2476E01A00181F4D /* UIApplication+mediaPlaylistUrl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		84AA97E22476BD3200181F4D /* AVBasicPlaybackUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AVBasicPlaybackUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84AA97E62476BD3200181F4D /* AVBasicPlaybackUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVBasicPlaybackUITests.swift; sourceTree = "<group>"; };
 		84AA97E82476BD3200181F4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84AA97F42476C16400181F4D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		84AA97FA2476E01A00181F4D /* UIApplication+mediaPlaylistUrl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIApplication+mediaPlaylistUrl.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,7 @@
 		84AA97B82476BD3100181F4D = {
 			isa = PBXGroup;
 			children = (
+				84AA97F42476C16400181F4D /* Default-568h@2x.png */,
 				84AA97C32476BD3100181F4D /* AVBasicPlayback */,
 				84AA97DA2476BD3200181F4D /* AVBasicPlaybackTests */,
 				84AA97E52476BD3200181F4D /* AVBasicPlaybackUITests */,
@@ -99,6 +104,7 @@
 		84AA97C32476BD3100181F4D /* AVBasicPlayback */ = {
 			isa = PBXGroup;
 			children = (
+				84AA97F92476DFEB00181F4D /* Extensions */,
 				84AA97C42476BD3100181F4D /* AppDelegate.swift */,
 				84AA97C62476BD3100181F4D /* SceneDelegate.swift */,
 				84AA97C82476BD3100181F4D /* ViewController.swift */,
@@ -126,6 +132,14 @@
 				84AA97E82476BD3200181F4D /* Info.plist */,
 			);
 			path = AVBasicPlaybackUITests;
+			sourceTree = "<group>";
+		};
+		84AA97F92476DFEB00181F4D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				84AA97FA2476E01A00181F4D /* UIApplication+mediaPlaylistUrl.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +247,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				84AA97D12476BD3200181F4D /* LaunchScreen.storyboard in Resources */,
+				84AA97F52476C16400181F4D /* Default-568h@2x.png in Resources */,
 				84AA97CE2476BD3200181F4D /* Assets.xcassets in Resources */,
 				84AA97CC2476BD3100181F4D /* Main.storyboard in Resources */,
 			);
@@ -259,6 +274,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84AA97FB2476E01A00181F4D /* UIApplication+mediaPlaylistUrl.swift in Sources */,
 				84AA97C92476BD3100181F4D /* ViewController.swift in Sources */,
 				84AA97C52476BD3100181F4D /* AppDelegate.swift in Sources */,
 				84AA97C72476BD3100181F4D /* SceneDelegate.swift in Sources */,
@@ -435,11 +451,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A8E34HJCQ9;
 				INFOPLIST_FILE = AVBasicPlayback/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ArsTropica.AVBasicPlayback;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -452,11 +471,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A8E34HJCQ9;
 				INFOPLIST_FILE = AVBasicPlayback/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ArsTropica.AVBasicPlayback;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
